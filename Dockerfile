@@ -4,7 +4,7 @@ MAINTAINER acmodeu <acmodeu@gmail.com>
 
 RUN apk add --no-cache su-exec
 
-RUN wget http://web-builds.airdcpp.net/develop/airdcpp_latest_develop_64-bit_portable.tar.gz && \
+RUN wget -q http://web-builds.airdcpp.net/develop/airdcpp_latest_develop_64-bit_portable.tar.gz && \
 tar zxf airdcpp_latest_develop_64-bit_portable.tar.gz && \
 rm airdcpp_latest_develop_64-bit_portable.tar.gz
 
